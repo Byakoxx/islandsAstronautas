@@ -1,16 +1,27 @@
-# islands
+# Islands
 
-A new Flutter project.
+Proyecto Flutter para prueba técnica - 3 Astronautas
 
-## Getting Started
+## Prueba Técnica
 
-This project is a starting point for a Flutter application.
+Imagínese que tenemos una matriz (NxN) de 1s y 0s. Donde los 1s representan posiciones en donde hay tierra, y los 0s representan posiciones
+en donde hay agua. De tal forma que:
 
-A few resources to get you started if this is your first Flutter project:
+- Cada posición que está en tierra representa una isla
+- Cuando 2 islas son adyacentes horizontal o verticalmente conforman una misma isla
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+matriz =  [ [1, 1, 0, 1, 1],
+            [1, 1, 0, 0, 0],
+            [0, 1, 0, 0, 0],
+            [0, 1, 0, 0, 1],
+            [1, 1, 0, 1, 1] ];
+            
+numeroDeIslas(int[][] matriz) {
+/// Implementación del código
+return 0;
+}
+
+/// Ejeciución de la solución
+resultado = numeroDeIslas(matriz);
+/// resultado = 3
