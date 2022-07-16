@@ -9,7 +9,7 @@ class IslandsProvider extends ChangeNotifier {
   TextEditingController heightController = TextEditingController();
   int _counterIslands = 0, _navigatorIndex = 0;
   bool _isGenerated = false;
-  String _query = 'restaurant';
+  String _query = 'Astronautas';
 
 
   set isGenerated(bool isGenerated)  {

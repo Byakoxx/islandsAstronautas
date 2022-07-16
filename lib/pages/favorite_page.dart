@@ -102,7 +102,7 @@ class _FavoritePageState extends State<FavoritePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      'Favorites',
+                      "Favorites",
                       style: TextStyle(
                         fontSize: 36.0
                       ),
@@ -137,9 +137,9 @@ class _FavoritePageState extends State<FavoritePage> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Text(
-                      'Happy Hours',
-                      style: TextStyle(
+                    Text(
+                      islandsProvider.query,
+                      style: const TextStyle(
                         fontSize: 25.0
                       ),
                     ),
